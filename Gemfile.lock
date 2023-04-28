@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/drapergem/draper.git
+  remote: https://github.com/drapergem/draper.git
   revision: c44894373c2ecbec41c5f3a84c83a2c21cf36aee
   ref: c44894373c2ecbec41c5f3a84c83a2c21cf36aee
   specs:
@@ -160,7 +160,7 @@ GEM
       pry (>= 0.9.10)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
-    rack (1.5.2)
+    rack (1.5.5)
     rack-protection (1.5.2)
       rack
     rack-test (0.6.2)
@@ -192,7 +192,7 @@ GEM
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
     ref (1.0.5)
-    request_store (1.0.5)
+    request_store (1.0.8)
     resque (1.25.2)
       mono_logger (~> 1.0)
       multi_json (~> 1.0)
