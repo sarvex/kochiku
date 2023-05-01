@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 4.1.1'
-gem 'passenger', '~> 4.0.41', group: :production
+gem 'passenger', '~> 5.3.2', group: :production
 gem 'dynamic_form'
 gem 'rails-observers'
 gem 'actionpack-action_caching'
