@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.1.1'
+gem 'rails', '~> 4.2.11'
 gem 'passenger', '~> 5.3.2', group: :production
 gem 'dynamic_form'
 gem 'rails-observers'
@@ -13,7 +13,7 @@ gem 'symbolize'
 
 gem 'haml-rails'
 gem 'sass'
-gem 'sass-rails', '4.0.3'  # locked for https://github.com/sstephenson/sprockets/issues/540
+gem 'sass-rails', '6.0.0'  # locked for https://github.com/sstephenson/sprockets/issues/540
 gem 'compass'
 gem 'compass-rails'
 gem 'jquery-rails'
@@ -43,7 +43,7 @@ gem 'pry-byebug'
 gem 'colorize', require: false
 
 group :test, :development do
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails', '~> 4.1.2'
   gem 'rspec-collection_matchers'
   gem 'factory_girl_rails'
 end
